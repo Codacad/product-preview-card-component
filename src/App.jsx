@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="app min-h-[100vh] bg-appBackground flex flex-col justify-center items-center font-Fraunces p-4 md:p-0">
-        <div className="product-review-component bg-reviewComponentBackground md:grid md:grid-cols-2 m-auto rounded-md min-h-[100vh]">
+        <div className="product-review-component bg-reviewComponentBackground md:grid md:grid-cols-2 m-auto rounded-md">
           <div className="img rounded-l-md">
             <img src={ProductImage} className="rounded-l-md w-full h-full" alt="Product Image" />
           </div>
