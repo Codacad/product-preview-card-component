@@ -1,3 +1,26 @@
 .app{
   box-sizing: border-box;
 }
+.product-review-component{
+  width: 40%;
+}
+@media(max-width:1300px){
+  .product-review-component{
+    width: 50%;
+  }
+}
+@media(max-width:1000px){
+  .product-review-component{
+    width: 60%;
+  }
+}
+@media(max-width:850px){
+  .product-review-component{
+    width: 85%;
+  }
+}
+@media(max-width:620px){
+  .product-review-component{   
+    width: 95%;
+  }
+}
