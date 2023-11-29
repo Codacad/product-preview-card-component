@@ -6,12 +6,12 @@ function App() {
   return (
     <>
       <div className="app min-h-[100vh] bg-appBackground flex flex-col md:justify-center items-center font-Fraunces md:p-0 p-2">
-        <div className="product-review-component bg-reviewComponentBackground md:grid md:grid-cols-2 m-auto rounded-md">
+        <div className="product-review-component shadow-md bg-reviewComponentBackground md:grid md:grid-cols-2 m-auto rounded-md">
           <div className="img rounded-l-md">
             <img src={ProductImageDesktop} className="rounded-l-md hidden md:block w-full h-full" alt="Product Image" />
             <img src={ProductImageMobile} className="rounded-l-md block md:hidden w-full h-full" alt="Product Image" />
           </div>
-          <div className="text-content py-8 px-10 flex flex-col justify-between gap-4">
+          <div className="text-content py-8 px-10 flex flex-col justify-between gap-4 backdrop-blur-sm">
             <h3 className="font-sm font-Montserrat uppercase text-darkGrayishBlue tracking-[.2rem] font-semibold">Perfume</h3>
             <h1 className="text-4xl font-Fraunces font-extrabold text-veryDarkBlue">Gabrielle Essence Eau De Parfum</h1>
             <p className="text-sm font-medium font-Montserrat text-darkGrayishBlue leading-[1.8]">
