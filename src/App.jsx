@@ -1,4 +1,5 @@
-import ProductImage from "./assets/images/image-product-desktop.jpg";
+import ProductImageDesktop from "./assets/images/image-product-desktop.jpg";
+import ProductImageMobile from "./assets/images/image-product-mobile.jpg";
 import Cart from './assets/images/icon-cart.svg'
 import "./App.css";
 function App() {
@@ -7,7 +8,8 @@ function App() {
       <div className="app min-h-[100vh] bg-appBackground flex flex-col justify-center items-center font-Fraunces p-4 md:p-0">
         <div className="product-review-component bg-reviewComponentBackground md:grid md:grid-cols-2 m-auto rounded-md">
           <div className="img rounded-l-md">
-            <img src={ProductImage} className="rounded-l-md w-full h-full" alt="Product Image" />
+            <img src={ProductImageDesktop} className="rounded-l-md hidden md:block w-full h-full" alt="Product Image" />
+            <img src={ProductImageMobile} className="rounded-l-md block md:hidden w-full h-full" alt="Product Image" />
           </div>
           <div className="text-content py-8 px-10 flex flex-col justify-between gap-4">
             <h3 className="font-sm font-Montserrat uppercase text-darkGrayishBlue tracking-[.2rem] font-semibold">Perfume</h3>
