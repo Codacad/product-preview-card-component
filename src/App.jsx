@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="app min-h-[100vh] bg-appBackground flex flex-col justify-center items-center font-Fraunces md:p-0">
+      <div className="app min-h-[100vh] bg-appBackground flex flex-col md:justify-center items-center font-Fraunces md:p-0 p-2">
         <div className="product-review-component bg-reviewComponentBackground md:grid md:grid-cols-2 m-auto rounded-md">
           <div className="img rounded-l-md">
             <img src={ProductImageDesktop} className="rounded-l-md hidden md:block w-full h-full" alt="Product Image" />
@@ -27,12 +27,12 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="attribution pt-2 md:pt-2 font-Montserrat">
+        <div className="attribution text-sm pt-2 md:pt-2 font-Montserrat">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge">
             Frontend Mentor
           </a>
-          . Coded by <a href="https://github.com/Codacad" className="">Mohd Rizwan</a>.
+          . Coded by <a href="https://github.com/Codacad" className="text-xl text-darkCyan font-bold">Mohd Rizwan</a>.
         </div>
       </div>
     </>
